@@ -24,6 +24,12 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+ 
+ .justify-text{
+	text-align: justify;
+	text-justify: inter-word;
+ }
+ 
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -590,7 +596,7 @@
 }
 
 .slider.slider-primary.noUi-target {
-  background-color: rgba(55, 140, 63, 0.4);
+  background-color: rgba(96, 96, 96, 0.4);
 }
 
 .slider.slider-primary .noUi-handle {
@@ -2594,7 +2600,7 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: rgba(96, 96, 96, 0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
@@ -4922,14 +4928,14 @@ Created using IcoMoon - icomoon.io
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.section-full-page[filter-color="purple"]:after, .section-full-page[filter-color="primary"]:after {
+.section-full-page[filter-color="purple"]:after, .section-full-page[filter-color="info"]:after {
   background: rgba(227, 227, 227, 0.26);
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(227, 227, 227, 0.26)), to(rgba(55, 140, 63, 0.95)));
-  background: linear-gradient(0deg, rgba(227, 227, 227, 0.26), rgba(55, 140, 63, 0.95));
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(227, 227, 227, 0.26)), to(rgba(96, 96, 96, 0.95)));
+  background: linear-gradient(0deg, rgba(227, 227, 227, 0.26), rgba(96, 96, 96, 0.95));
   /* Standard syntax */
 }
 
@@ -7045,8 +7051,8 @@ Created using IcoMoon - icomoon.io
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(96, 96, 96, 0.6)));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(96, 96, 96, 0.6));
   /* Standard syntax */
 }
 
@@ -7092,7 +7098,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(96, 96, 96, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
